@@ -4,4 +4,15 @@ body {
 h1{
     color:rgb(10, 9, 5);
     
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        background-color: #218adf;
+     
+    
+}
+h2{
+    color;
 }
