@@ -1,3 +1,11 @@
-<?php
-echo "Witaj świecie Nazywam sie Jan Kowalski"
-?>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Piotr Kopeć</title>
+
+
+
+
+</head>
+</html>
