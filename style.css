@@ -1,34 +1,28 @@
-body {
-    background-color: rgb(227, 243, 6);
+.container{
+    display: grid;
+    grid-template-areas: 
+    'a a d d d'
+    'b b d d d'
+    'c c d d d';
+    height: 100vh;
 }
-h1{
-    color:rgb(10, 9, 5);
-    
-        display: block;
-        color: #000000;
-        text-align: center;
-        padding: 10px 10px;
-        text-decoration: none;
-        background-color: #218adf;   
+.a{
+    grid-area: a;
+    background-color: aqua;
+    height: 100%;
 }
-
-
-
-.nav a {
-    width: 250px;
+.b{
+    grid-area: b;
+    background-color: blue;
+    height: 100%;
 }
-a.big {
-    line-height: 1.8;
-  }
-a {
-    
-   
-    text-decoration: none;
-    background-color: rgb(230, 173, 173);
-    padding: 10px 18px;
-    border-radius: 15px;
-    color: black;
+.c{
+    grid-area: c;
+    background-color: chartreuse;
+    height: 100%;
 }
-    
-
-
+.d{
+    grid-area: d;
+    background-color: coral;
+    height: 100%;
+}
