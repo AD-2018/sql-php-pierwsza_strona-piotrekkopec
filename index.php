@@ -22,18 +22,14 @@
       require_once("connect.php");
       $sql = "SELECT * FROM pracownicy where dzial=2";
       echo($sql);
-      
       $result = mysqli_query($conn, $sql);
-
       echo('<table border="1">');
           echo('<th>Id</th><th>dzial</th><th>zarobki</th><th>zata urodzenia</th>');
-      
           while($row=mysqli_fetch_assoc($result)){
               echo('<tr>');
               echo('<td>'.$row['id_pracownicy'].'</td>'.'<td>'.$row['dzial'].'</td><td>'.$row['zarobki'].'</td><td>'.$row['data_urodzenia'].'</td>');
               echo('</tr>');
           }
-      
           echo('</table>');
       ?>
       </div>
