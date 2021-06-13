@@ -20,7 +20,7 @@
       <div class="d">
       <?php
       require_once("connect.php");
-      $sql = "SELECT * FROM pracownik where dzial=2";
+      $sql = "SELECT * FROM pracownik";
       echo($sql);
       $result = mysqli_query($conn, $sql);
       echo('<table border="1">');
