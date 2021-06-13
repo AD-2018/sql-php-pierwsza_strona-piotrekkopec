@@ -20,7 +20,7 @@
       <div class="d">
       <?php
       require_once("connect.php");
-      $sql="SELECT * from pracownicy";
+      $sql="SELECT * from pracownik";
       $result= mysqli_query($conn, $sql);
       echo("table border='1'>");
       echo("<th>Id</th><th>Imie</th>");
