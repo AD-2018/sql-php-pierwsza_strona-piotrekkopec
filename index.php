@@ -14,7 +14,10 @@
       <input type="text">
       <input type="text">
       <input type="submit" values="dodaj">
-
+      </div>
+      <div class="b">b</div>
+      <div class="c">c</div>
+      <div class="d">
       <?php
       require_once("conn.php");
       $sql="SELECT * from pracownicy";
@@ -29,9 +32,6 @@
       echo("</table>");
       ?>
       </div>
-      <div class="b">b</div>
-      <div class="c">c</div>
-      <div class="d">d</div>
 </div>
 
    
