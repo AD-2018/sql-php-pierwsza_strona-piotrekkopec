@@ -20,16 +20,21 @@
       <div class="d">
       <?php
       require_once("connect.php");
-      $sql = "SELECT * FROM pracownik where dzial=2";
-      $result= mysqli_query($conn, $sql);
-      echo("table border='1'>");
-      echo('<th>Imie</th><th>zarobki</th><th>Dzial</th><th>ID</th>');
-      while($row=mysqli_fetch_assoc($result)){
-            echo('<tr>');
-            echo('<td>'.$row['imie'].'</td>'.'<td>'.$row['zarobki'].'</td><td>'.$row['dzial'].'</td><td>'.$row['id_pracownicy'].'</td>');
-            echo('</tr>');
-      }
-      echo("</table>");
+      $sql = "SELECT * FROM pracownicy where dzial=2";
+      echo($sql);
+      
+      $result = mysqli_query($conn, $sql);
+
+      echo('<table border="1">');
+          echo('<th>Imie</th><th>zarobki</th><th>Dzial</th><th>ID</th>');
+      
+          while($row=mysqli_fetch_assoc($result)){
+              echo('<tr>');
+              echo('<td>'.$row['imie'].'</td>'.'<td>'.$row['zarobki'].'</td><td>'.$row['dzial'].'</td><td>'.$row['id_pracownicy'].'</td>');
+              echo('</tr>');
+          }
+      
+          echo('</table>');
       ?>
       </div>
 </div>
