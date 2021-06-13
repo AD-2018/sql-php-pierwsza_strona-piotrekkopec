@@ -1,3 +1,3 @@
 # PHP-SQL-wprowadzenie
 
-https://php-primer-piotr-kopec.herokuapp.com
+https://mojastronaa.herokuapp.com
