@@ -5,18 +5,20 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>Index</title>
 </head>
 <body>
 <div class="container">
       <div class="a">
-      <form action="index.php"></form>
-      <input type="text">
-      <input type="text">
+      <form action="insert.php" method="POST"></form>
+      <input type="text" name="Imie"><br> 
+      <input type="number" name="Dzial"><br>
+      <input type="number" name="Zarobki"><br>
+      <input type="date" name="Data Urodzenia"><br>
       <input type="submit" values="dodaj">
       </div>
-      <div class="b"><a href="Strona1.php">Ćwiczenie World</a></div>
-      <div class="c">c</div>
+      <div class="b"></div>
+      <div class="c"><a href="Strona1.php">Ćwiczenie</a></div>
       <div class="d">
       <?php
       require_once("connect.php");
