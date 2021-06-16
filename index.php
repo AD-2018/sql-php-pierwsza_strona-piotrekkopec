@@ -15,7 +15,7 @@
       <input type="number" name="Dzial"><br>
       <input type="number" name="Zarobki"><br>
       <input type="date" name="Data Urodzenia"><br>
-      <input type="submit" values="dodaj">
+      <input type="submit" value="dodaj">
       </form>
       </div>
       <div class="b"></div>
