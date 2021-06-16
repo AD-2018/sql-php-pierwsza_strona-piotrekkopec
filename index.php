@@ -15,7 +15,7 @@
       <input type="text">
       <input type="submit" values="dodaj">
       </div>
-      <div class="b">b</div>
+      <div class="b"><a href="Strona1.php">Ćwiczenie World</a></div>
       <div class="c">c</div>
       <div class="d">
       <?php
