@@ -11,10 +11,10 @@
 <div class="container">
       <div class="a">
       <form action="insert.php" method="POST"></form>
-      <input type="text" name="Imie">Imie<br> 
-      <input type="number" name="Dzial">Dzial<br>
-      <input type="number" name="Zarobki">Zarobki<br>
-      <input type="date" name="Data Urodzenia">Data Urodzenia<br>
+      <input type="text" name="Imie"><br> 
+      <input type="number" name="Dzial"><br>
+      <input type="number" name="Zarobki"><br>
+      <input type="date" name="Data Urodzenia"><br>
       <input type="submit" values="dodaj">
       </div>
       <div class="b"></div>
