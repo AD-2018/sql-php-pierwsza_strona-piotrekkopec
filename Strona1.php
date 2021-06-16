@@ -9,16 +9,16 @@
 </head>
 <body>
 <div class="container">
-<div class="a"></div>
-<div class="b"></div>
-<div class="c"></div>
-<div class="d">
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="d">
 <form action="insert.php" method="POST">
 <input type="text" name="imie">
 <input type="number" name="dzial">
 <input type="number" name="zarobki">
 <input type="date" name="data urodzenia">
-<input type="submit" name="Dodaj">
+<input type="submit" value="Dodaj">
 </form>
 <?php
 require_once("connect.php");
@@ -32,13 +32,6 @@ while($row=mysqli_fetch_assoc($result)){
     echo('</tr>');
 }
 echo('</table>');
-
-
-
-
-
-
-
 
 ?>
 </div>
