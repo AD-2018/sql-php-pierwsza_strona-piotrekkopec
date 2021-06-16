@@ -19,7 +19,8 @@
       </form>
       </div>
       <div class="b"></div>
-      <div class="c"><a href="Strona1.php">Ćwiczenie</a><br>
+      <div class="c">
+      <a href="Strona1.php">Ćwiczenie</a><br>
       <a href="Strona2.php">Ćwiczenie2</a>
       </div>
       <div class="d">
