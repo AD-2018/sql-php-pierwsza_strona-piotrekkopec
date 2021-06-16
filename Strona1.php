@@ -14,6 +14,7 @@
     <div class="c"></div>
     <div class="d">
 <form action="insert.php" method="POST">
+<input type="number" name="id">
 <input type="text" name="imie">
 <input type="number" name="dzial">
 <input type="number" name="zarobki">
