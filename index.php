@@ -10,12 +10,13 @@
 <body>
 <div class="container">
       <div class="a">
-      <form action="insert.php" method="POST"></form>
+      <form action="insert.php" method="POST">
       <input type="text" name="Imie"><br> 
       <input type="number" name="Dzial"><br>
       <input type="number" name="Zarobki"><br>
       <input type="date" name="Data Urodzenia"><br>
       <input type="submit" values="dodaj">
+      </form>
       </div>
       <div class="b"></div>
       <div class="c"><a href="Strona1.php">Ćwiczenie</a></div>
