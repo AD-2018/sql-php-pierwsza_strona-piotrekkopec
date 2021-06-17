@@ -18,6 +18,7 @@
 <input type="text" name="Continent">
 <input type="text" name="Region">
 <input type="text" name="Population">
+<input type="submit" value="Dodaj">
 </form>
 <?php
 require_once("connect.php");
