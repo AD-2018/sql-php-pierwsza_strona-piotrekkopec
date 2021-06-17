@@ -17,7 +17,7 @@
 <input type="text" name="Name">
 <input type="text" name="Continent">
 <input type="text" name="Region">
-<input type="text" name="Population">
+<input type="number" name="Population">
 <input type="submit" value="Dodaj">
 </form>
 <?php
