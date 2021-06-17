@@ -21,7 +21,8 @@
       <div class="b"></div>
       <div class="c">
       <a href="Strona1.php">Ćwiczenie</a><br>
-      <a href="Strona2.php">Ćwiczenie2</a>
+      <a href="Strona2.php">Ćwiczenie2</a><br>
+      <a href="Strona3.php">Ćwiczenie3</a>
       </div>
       <div class="d">
       <?php
