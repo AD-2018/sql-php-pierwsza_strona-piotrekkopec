@@ -9,7 +9,8 @@
 </head>
 <body>
 <div class="container">
-      <div class="a"></div>
+      <div class="a">
+      <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-piotrekkopec">Github</a></div>
       <div class="b"></div>
       <div class="c">
       <a href="Strona1.php">Ćwiczenie</a><br>
