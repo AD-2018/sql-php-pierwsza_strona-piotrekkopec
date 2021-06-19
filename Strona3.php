@@ -9,8 +9,7 @@
 </head>
 <body>
 <div class="container">
-<div class="a">
-<a href="index.php">Poczatek</a></div>
+<div class="a"></div>
 <div class="b"></div>
 <div class="c"></div>
 <div class="d">
