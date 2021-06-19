@@ -13,7 +13,7 @@
 }
 .b{
     grid-area: b;
-    background-color: blue;
+    background-color:pink;
     height: 100%;
 }
 .c{
@@ -23,6 +23,6 @@
 }
 .d{
     grid-area: d;
-    background-color: pink;
+    background-color:coral;
     height: 100%;
 }
